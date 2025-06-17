@@ -12,7 +12,7 @@ public class Employee {
     private String name;
     private String status;
 
-    // Constructores
+    // Constructors
     public Employee() {
     }
 
@@ -23,7 +23,7 @@ public class Employee {
         this.status = status;
     }
 
-    // Getters y setters
+    // Getters and setters
     public Long getEmployeeId() {
         return employeeId;
     }

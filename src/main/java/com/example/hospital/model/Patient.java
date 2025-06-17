@@ -15,7 +15,7 @@ public class Patient {
     @JoinColumn(name = "admitted_by")
     private Employee admittedBy;
 
-    // Constructores
+    // Constructors
     public Patient() {
     }
 
@@ -26,7 +26,7 @@ public class Patient {
         this.admittedBy = admittedBy;
     }
 
-    // Getters y setters
+    // Getters and setters
     public Long getPatientId() {
         return patientId;
     }

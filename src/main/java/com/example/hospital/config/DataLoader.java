@@ -16,7 +16,7 @@ public class DataLoader {
     @Bean
     CommandLineRunner initDatabase(EmployeeRepository employeeRepo, PatientRepository patientRepo) {
         return args -> {
-            // Empleados
+            // Employees
             Employee e1 = new Employee(356712L, "cardiology", "Alonso Flores", "ON_CALL");
             Employee e2 = new Employee(564134L, "immunology", "Sam Ortega", "ON");
             Employee e3 = new Employee(761527L, "cardiology", "German Ruiz", "OFF");
@@ -31,7 +31,7 @@ public class DataLoader {
             employeeRepo.save(e5);
             employeeRepo.save(e6);
 
-            // Pacientes
+            // Patients
             patientRepo.save(new Patient(1L, "Jaime Jordan", LocalDate.of(1984, 3, 2), e2));
             patientRepo.save(new Patient(2L, "Marian Garcia", LocalDate.of(1972, 1, 12), e2));
             patientRepo.save(new Patient(3L, "Julia Dusterdieck", LocalDate.of(1954, 6, 11), e1));
