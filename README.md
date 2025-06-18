@@ -91,7 +91,7 @@ Abre cualquiera de estas URLs en tu navegador:
 
 - Pacientes por departamento del médico que los admitió
     
-    👉 http://localhost:8080/patients/by-doctor-department/cardiology
+    👉 http://localhost:8080/patients/by-department/cardiology
 
 
 - Pacientes cuyo doctor está OFF
